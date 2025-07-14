@@ -24,7 +24,7 @@ for (const file of commandFiles) {
 // Load /help command
 const helpCommand = new SlashCommandBuilder()
   .setName('help')
-  .setDescription('Show help for all prefix commands');
+  .setDescription('Show help for all prefix commands by Crayon');
 
 const rest = new REST({ version: '10' }).setToken(config.token);
 client.once('ready', async () => {
